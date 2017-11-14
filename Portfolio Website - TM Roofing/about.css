@@ -1,0 +1,158 @@
+
+#about-body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('./about-banner.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 550px;
+    text-shadow: 1px 1px 1px #000000;
+    z-index: -2;
+
+}
+
+.jumbotron .filter {
+    left: 50%;
+    height: 550px;
+    width: 50%;
+    background-color: rgba(9, 5, 53, 0.56);
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.jumbotron .about-header {
+    padding-top: 150px;
+    display: relative; 
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 100px;
+
+}
+
+.jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+}
+
+.jumbotron h3 {
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+header .btn-primary {
+    font-size: 18px;
+    padding: 7px 9px;
+    background-color: #18608D;
+    border-color: #124F77;
+}
+
+header .btn-primary:hover { 
+    background-color: #6CA6CD;
+    color: #fff;
+}
+
+/* banner spilt */
+
+#banner1 {
+    background-color: #207994;
+    padding: 50px;
+    margin-top: -30px;
+    height: 220px;
+}
+
+#banner2 {
+    background-color: #207994;
+    padding: 40px;
+    margin-top: -110px;
+}
+
+.strip-text {
+    color: #fff;
+    display: none;
+}
+
+.contact-btn {
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    padding: 20px 1px 2px 1px;
+    border-radius: 0px;
+}
+
+.contact-btn:hover {
+    color: #fff;
+  }
+
+/* first section */
+
+.first-section {
+    font-size: 16px;
+    background-color: #fff;
+    line-height: 160%;
+}
+
+.first-section h3 {
+    color: #16115E;
+}
+
+.images-left, .images-right {
+    opacity: 0.9;
+}
+
+.images-left {
+    height: auto;
+    width: 90%;
+    position: relative;
+    margin-left: -24px;
+}
+
+.info-right1 {
+    margin-left: -50px;
+    padding-right: 50px;
+    vertical-align: middle;
+    margin-top: 90px;
+}
+
+.inner-box {
+    margin-left: 500px;
+    margin-right: -500px;
+}
+
+.inner-box2 {
+    margin-right: 500px;
+    margin-left: -500px;
+}
+
+
+.images-right {
+    height: auto;
+    width: 90%;
+    position: relative;
+    margin-left: 85px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.info-left {
+    vertical-align: middle;
+    margin-top: 90px;
+    padding-right: -20px;
+}
+
+.info-right2 {
+    margin-left: -50px;
+    padding-right: 50px;
+    vertical-align: middle;
+    margin-top: 65px;
+}
+

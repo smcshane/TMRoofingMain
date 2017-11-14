@@ -1,0 +1,71 @@
+$(document).ready(function () {
+
+
+    // Main Page
+
+    /* Fade in title on homepage */
+
+    $(document).ready(function () {
+        $(".homepage-header").fadeIn("slow");
+    });
+
+     // Video appears when button clicked on main page
+    
+    $(".btn-secondary").click(function () {
+        $(".homepage-header").hide();
+        $(".jumbotron video").fadeToggle('slow');
+        $('video').get(0).play();
+    });
+
+    $("video").on('ended',function(){
+        $("video").hide();
+        $(".homepage-header").fadeIn("slow");
+    });
+
+    var $strip = $('#banner-mainpage');
+    
+    $strip.waypoint(function () {
+        $(".strip-text").fadeIn("slow");
+    }, { offset: '70%' });
+    
+    
+    // About Page 
+    // Fade in title 
+
+    $(document).ready(function () {
+        $(".about-header").fadeIn("slow");
+    });
+
+    // Setting waypoint animations
+
+    //banner 1
+
+    var $strip = $('#banner1');
+
+    $strip.waypoint(function () {
+        $(".strip-text").fadeIn("slow");
+    }, { offset: '70%' });
+
+
+    var $firstImg = $('.image1');
+
+    $firstImg.waypoint(function () {
+        $(".info-right1").animate({right: '500px'}, 'slow');
+    }, { offset: '40%' });
+
+
+    var $secondImg = $('.image2');
+
+    $secondImg.waypoint(function () {
+        $(".info-left").animate({left: '500px'}, 'slow');
+    }, { offset: '40%' });
+    
+    var $thirdImg = $('.image3');
+    
+    $thirdImg.waypoint(function () {
+        $(".info-right2").animate({right: '500px'}, 'slow');
+    }, { offset: '40%' });
+
+    
+});
+

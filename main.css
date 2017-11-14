@@ -166,6 +166,11 @@ section .btn-secondary:hover {
 
 #services {
     padding-bottom: 20px;
+    text-align: center;
+    color:#11062E;
+    font-weight:normal;
+    text-transform:uppercase;
+    text-decoration: underline;
 }
 
 section .row img {
@@ -257,6 +262,7 @@ section .cards:hover {
   text-align:center;
   text-transform:uppercase;
   margin-bottom:17px;
+  text-decoration: underline;
 }
 
 .third-container h2:before,
@@ -269,6 +275,7 @@ section .cards:hover {
  vertical-align: middle;
  width: 50%;
 }
+
 .third-container h2:before {
  right: 0.5em;
  margin-left: -50%;
@@ -362,9 +369,24 @@ footer .col-sm-8 {
 
 footer ul {
   list-style: none;
+  color: #fff;
+  padding: 20px;
 }
 
-footer li img {
+footer ul a {
+  color: #fff;
+  font-size: 15px;
+}
+
+footer ul a:hover {
+  color: #fff;
+}
+
+footer img {
   width: 80px;
   height: 80px;
+}
+
+footer a {
+  padding: 0px;
 }

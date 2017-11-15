@@ -34,7 +34,7 @@
     float: right;
     margin-right: 30px;
     margin-bottom: 100px;
-
+    z-index: 1;
 }
 
 .jumbotron h2 {
@@ -49,16 +49,17 @@
     color: #fff;
 }
 
-header .btn-primary {
+.jumbotron .btn-tertiary {
     font-size: 18px;
     padding: 7px 9px;
     background-color: #18608D;
     border-color: #124F77;
+    color: #fff;
 }
 
-header .btn-primary:hover { 
-    background-color: #6CA6CD;
-    color: #fff;
+.jumbotron .btn-tertiary:hover { 
+  background-color: #6CA6CD;
+  color: #fff;
 }
 
 /* banner spilt */

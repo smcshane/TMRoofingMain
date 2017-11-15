@@ -376,17 +376,18 @@ footer ul {
 footer ul a {
   color: #fff;
   font-size: 15px;
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 footer ul a:hover {
   color: #fff;
 }
 
+footer .links-2 {
+  margin-left: -70px;
+}
+
 footer img {
   width: 80px;
   height: 80px;
-}
-
-footer a {
-  padding: 0px;
 }

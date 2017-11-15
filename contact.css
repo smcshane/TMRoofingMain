@@ -26,12 +26,14 @@ section .controls {
     box-shadow: 0px 0px 8px 0px #333;
 }
 
-h1{
+h1 {
     margin-bottom: 20px;
 }
+
 label {
     color: #333;
 }
+
 .btn-send {
     font-weight: 300;
     text-transform: uppercase;

@@ -10,37 +10,33 @@
   }
   
   header {
-    padding: 15px 0px;
+    padding: 1.5% 0;
     background-color: #fff;
+    overflow: hidden;
   }
   
   header .row,
   footer .row {
     display: flex;
     align-items: center;
-    padding: 5px 20px;
   }
   
   /* nav bar */
+
+
   header h1 {
     font-weight: 700;
     margin: 0;
   }
   
-  header nav {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
   header .nav-btn {
     padding: 0 20px;
     margin: 0px 8px;
-    display: block;
+    display: inline-block;
     padding: 6px 14px;
     font-size: 17px;
     border: 1px solid #207994;
     color: #207994;
-    
   }
 
   header .nav-btn:hover {
@@ -133,9 +129,9 @@ section .btn-secondary:hover {
 
 .first-section {
     background-size: cover;
-    height: 100%;
     margin-bottom: 100px;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 .first-section h2 {
@@ -175,15 +171,16 @@ section .btn-secondary:hover {
 
 .icons {
     position: center;
-    width: 100%;
     height: auto;
-    max-height: 300px;
-    max-width: auto;
+    max-width: 100%;
     padding-top: 60px;
+    display: block;
 }
 
 .icons .img-responsive {
-  width: 40%;
+    width: 40%;
+    margin-left: auto;
+	  margin-right: auto;
 }
 
 .icons .icon-text {
@@ -196,7 +193,13 @@ section .btn-secondary:hover {
 
 .second-container {
     background-color: rgb(226, 222, 222);
-    padding: 60px 0px 100px 0px;
+    padding: 5% 3% 8% 3%;
+    overflow: hidden;
+}
+
+.second-container .container {
+    overflow: hidden;
+    padding-bottom: 2%;
 }
 
 #services {
@@ -205,54 +208,53 @@ section .btn-secondary:hover {
     color:#11062E;
     font-weight:normal;
     text-align:center;
-    margin-bottom:17px;
+    margin-bottom: 2%;
   }
 
 #services:before,
 #services:after {
-  background-color: #333;
-  border: solid;
-  border-width: 0.8px;
-  content: "";
-  display: inline-block;
-  height: 0.5px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
+    background-color: #333;
+    border: solid;
+    border-width: 0.8px;
+    content: "";
+    display: inline-block;
+    height: 0.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
 }
 
 #services:before {
-right: 0.5em;
-margin-left: -50%;
+    right: 0.5em;
+    margin-left: -50%;
 }
 
 #services:after {
-left: 0.5em;
-margin-right: -50%;
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+section .cards {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+section .cards:hover {
+  box-shadow: 0 4px 8px 0 #6CA6CD;
 }
 
 section .row img {
     margin: 0 0 10px;
     width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section .cards {
-    background-color: #fff;
-    padding-bottom: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    margin-top: 40px;
-}
-
-section .cards:hover {
-    box-shadow: 0 4px 8px 0 #6CA6CD;
-}
-
-.col-md-6 {
-    margin: 0 0 30px;
 }
 
 .image-container {
@@ -303,15 +305,16 @@ section .cards:hover {
 /* Testimonials */
 
 .third-container {
-  padding: 70px 0px;
+  padding: 5% 0 7% 0;
   background-color: #fff;
   overflow: hidden;
 }
 
-.third-container .block {
-  width:506px;
-  padding: 80px 6px 80px 6px;
-  margin:0 auto;
+.third-container .container {
+  overflow: hidden;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .third-container h2 {
@@ -344,12 +347,22 @@ section .cards:hover {
  margin-right: -50%;
 }
 
+.third-container .block {
+  width: 100%;
+  padding: 80px 6px 80px 6px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .third-container .test1 {
-  margin-right: 30px;
+  padding-right: 7%;
 }
 
 .third-container .test2 {
-  margin-left: 30px;
+  padding-left: 7%;
 }
 
 .block .photo{
@@ -425,22 +438,21 @@ section .cards:hover {
 
 footer {
   font-size: 18px;
-  padding: 10px 30px;
+  padding: 1% 5%;
   background-color: rgb(32, 32, 32);
   background-color: hsl(0, 0%, 20%);
   color: #fff;
-  margin: 0px 0px 0px 0px;
+  overflow: hidden;
 }
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+footer .links {
+  padding: 5%;
 }
 
 footer ul {
   list-style: none;
   color: #fff;
-  padding: 20px;
+  padding: 6%;
 }
 
 footer ul a {
@@ -451,10 +463,6 @@ footer ul a {
 
 footer ul a:hover {
   color: #fff;
-}
-
-footer .links-2 {
-  margin-left: -70px;
 }
 
 footer img {

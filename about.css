@@ -101,6 +101,7 @@
     font-size: 16px;
     background-color: #fff;
     line-height: 160%;
+    margin-top: 0;
 }
 
 .first-section h3 {
@@ -119,22 +120,14 @@
 }
 
 .info-right1 {
-    margin-left: -50px;
-    padding-right: 50px;
     vertical-align: middle;
-    margin-top: 90px;
+    margin-top: 6%;
 }
 
 .inner-box {
-    margin-left: 500px;
-    margin-right: -500px;
+    margin-right: -110%;
+    margin-left: 120%;
 }
-
-.inner-box2 {
-    margin-right: 500px;
-    margin-left: -500px;
-}
-
 
 .images-right {
     height: auto;
@@ -145,15 +138,17 @@
     margin-bottom: -10px;
 }
 
+.inner-box2 {
+    margin-right: 125%;
+    margin-left: -125%;
+}
+
 .info-left {
     vertical-align: middle;
     margin-top: 90px;
-    padding-right: -20px;
 }
 
 .info-right2 {
-    margin-left: -50px;
-    padding-right: 50px;
     vertical-align: middle;
     margin-top: 65px;
 }

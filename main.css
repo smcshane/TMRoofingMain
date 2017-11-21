@@ -3,10 +3,8 @@
   }
 
   body {
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-weight: 300;
-    background-image: url('./background-texture.png');
-    
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 300;    
   }
   
   header {
@@ -51,6 +49,7 @@
     align-items: center;
     background-image: url('./bannerimage.jpg');
     background-size: cover;
+    filter: grayscale(10%);
     color: #ffffff;
     height: 550px;
     text-shadow: 1px 1px 1px #000000;
@@ -58,7 +57,7 @@
   }
 
   .jumbotron h2 {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
     margin: 0;
     color: #fff;
@@ -165,8 +164,9 @@ section .btn-secondary:hover {
 }
 
 .icons p {
-    font-family: Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 450;
 }
 
 .icons {
@@ -206,7 +206,7 @@ section .btn-secondary:hover {
     padding-bottom: 20px;
     text-align: center;
     color:#11062E;
-    font-weight:normal;
+    font-weight: 450;
     text-align:center;
     margin-bottom: 2%;
   }
@@ -286,6 +286,7 @@ section .row img {
 }
 
 .overlay-text {
+    font-weight: 450;
     white-space: nowrap; 
     color: white;
     font-size: 20px;
@@ -389,7 +390,8 @@ section .row img {
   margin-left:121px;
   position:relative;
   overflow:hidden;
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: 410;
   color: #000;
 }
 
@@ -418,9 +420,9 @@ section .row img {
 
 .block .sign a{
   color:#1BA176;
-  font-family: Arial,sans-serif;
   font-size:16px;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .block .sign a:hover{
@@ -428,8 +430,9 @@ section .row img {
 }
 
 .block .sign p{
-  color: #11062E;
+  color: rgb(122, 121, 124);
   font-size:15px;
+  font-weight: 450;  
   line-height:15px;
   margin-top:6px;
 }
@@ -437,35 +440,29 @@ section .row img {
 /* footer */
 
 footer {
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 450;
   padding: 1% 5%;
-  background-color: rgb(32, 32, 32);
-  background-color: hsl(0, 0%, 20%);
+  background-color: #313844;
   color: #fff;
   overflow: hidden;
 }
 
 footer .links {
-  padding: 5%;
+  margin: 4% 0 0 0; 
 }
 
-footer ul {
-  list-style: none;
+footer a {
   color: #fff;
-  padding: 6%;
+  padding: 0% 4%;
 }
 
-footer ul a {
-  color: #fff;
-  font-size: 15px;
-  font-family: 'Roboto', Helvetica, sans-serif;
-}
-
-footer ul a:hover {
+footer a:hover {
   color: #fff;
 }
 
 footer img {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  margin: 2% -3% 2% -3%;
 }

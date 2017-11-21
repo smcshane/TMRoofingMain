@@ -46,25 +46,25 @@ $(document).ready(function () {
         $(".strip-text").fadeIn("slow");
     }, { offset: '70%' });
 
-
+/*
     var $firstImg = $('.image1');
 
     $firstImg.waypoint(function () {
-        $(".info-right1").animate({right: '500px'}, 'slow');
+        $(".info-right1").animate({right: '40%'}, 'slow');
     }, { offset: '40%' });
 
 
     var $secondImg = $('.image2');
 
     $secondImg.waypoint(function () {
-        $(".info-left").animate({left: '500px'}, 'slow');
+        $(".info-left").animate({left: '40%'}, 'slow');
     }, { offset: '40%' });
     
     var $thirdImg = $('.image3');
     
     $thirdImg.waypoint(function () {
-        $(".info-right2").animate({right: '500px'}, 'slow');
-    }, { offset: '40%' });
+        $(".info-right2").animate({right: '40%'}, 'slow');
+    }, { offset: '40%' }); */
 
     
 });

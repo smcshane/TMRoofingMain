@@ -165,7 +165,6 @@ section .btn-secondary:hover {
 
 .icons p {
     font-family: 'Lato', Helvetica, sans-serif;
-    font-size: 16px;
     font-weight: 450;
 }
 
@@ -473,22 +472,20 @@ footer img {
     margin: auto;
     text-align: center;
   }
-
-  #services {
+  .icons .icon-text {
+    font-size: 30px;
+}
+  #services .cards {
     display: block;
     margin: auto;
     text-align: center;
   }
   
-  .block {
+  .third-container .block {
     display: block;
     margin: auto;
     text-align: center;
   }
 
-  .homepage-header{
-    display: block;
-    margin: auto;
-    width: 80%;
-  }
+
 }

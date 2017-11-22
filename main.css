@@ -469,7 +469,6 @@ footer img {
   h2 {
     font-size: 50px;
   }
-
   .icons h4, .third-container h4 {
     font-size: 40px;
   }
@@ -498,15 +497,20 @@ footer img {
     text-align: center;
     width: 80%;
   }
-  .block p.content {
-    font-size: 40px;
+  .block .photo img {
+    width: 200px;
+    height: 200px;
+  }
+  .block p.content, .block .sign {
+    font-size: 35px;
   }
   header, footer {
     font-size: 35px;
+    font-weight: 450px;
   }
   footer img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
 
 }

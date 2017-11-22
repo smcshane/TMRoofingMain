@@ -166,11 +166,8 @@
         display: none;
     }
     #banner1, #banner2 {
-        height: 150px;
-        padding: 5%;
-    }
-    #banner1 h3, #banner2 h3 {
-        font-size: 18px;
+        height: 200px;
+        padding: 3% 5% 5% 5%;
     }
     .contact-btn {
         padding: 0;

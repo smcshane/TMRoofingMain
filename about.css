@@ -160,8 +160,7 @@
     .jumbotron .about-header {
         float: none;
         text-align: center;
-        width: 80%;
-        margin-right: 0;
+        width: 100%;
     }    
     #filter {
         display: none;
@@ -184,6 +183,9 @@
     .image1 {
         margin-top: 10%;
     }
+    .first-section h3 {
+        font-size: 45px;
+    }
     .info-left, .info-right1, .info-right2 {
         display: block;
         margin: auto;
@@ -191,7 +193,7 @@
         margin-bottom: 10%;
         text-align: center;
         width: 75%;
-        font-size: 20px;
+        font-size: 40px;
     }
     #order {
         display: flex;

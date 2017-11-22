@@ -497,14 +497,16 @@ footer img {
     margin: auto;
     text-align: center;
     width: 80%;
+  }
+  .block p.content {
     font-size: 40px;
   }
   header, footer {
-    font-size: 30px;
+    font-size: 35px;
   }
   footer img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 
 }

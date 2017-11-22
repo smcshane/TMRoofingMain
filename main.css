@@ -466,3 +466,29 @@ footer img {
   height: 70px;
   margin: 2% -3% 2% -3%;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+  .icons {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  #services {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .block {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .homepage-header{
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+}

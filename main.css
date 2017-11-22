@@ -495,18 +495,20 @@ footer img {
     display: block;
     margin: auto;
     text-align: center;
-    width: 80%;
+    width: 90%;
   }
   .block .photo img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
   .block p.content, .block .sign {
     font-size: 35px;
+    line-height: 20px;
+    font-weight: 500px;
   }
   header, footer {
     font-size: 35px;
-    font-weight: 450px;
+    font-weight: 500px;
   }
   footer img {
     width: 120px;

@@ -497,14 +497,18 @@ footer img {
     text-align: center;
     width: 90%;
   }
-  .block .photo img {
-    width: 300px;
-    height: 300px;
+  .photo img {
+    width: 400px;
+    height: 400px;
+  }
+  .block {
+    display: flex;
   }
   .block p.content, .block .sign {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 20px;
-    font-weight: 500px;
+    font-weight: 600px;
+    overflow: visible;
   }
   header, footer {
     font-size: 35px;

@@ -467,14 +467,14 @@ footer img {
 
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
   
-  header .nav-btn, section .btn-primary, section .btn-secondary {
-    font-size: 30px;
+  header .nav-btn, section .btn-primary, section .btn-secondary, .jumbotron .btn-tertiary {
+    font-size: 35px;
   }
   .jumbotron h2 {
     font-size: 100px;
   }
   h2 {
-    font-size: 50px;
+    font-size: 60px;
   }
   .jumbotron h3 {
     font-size: 40px;
@@ -486,7 +486,10 @@ footer img {
     height: 220px;
   }
   .strip-text {
-    font-size: 35px;
+    font-size: 45px;
+    color: #fff;
+  }
+  .strip-text h3, .strip-text:hover {
     color: #fff;
   }
   .icons h4, .third-container h4 {
@@ -517,9 +520,9 @@ footer img {
     text-align: center;
     width: 90%;
   }
-  .photo {
-    width: 500px;
-    height: 500px;
+  .photo img {
+    width: 400px;
+    height: 400px;
   }
   .block {
     display: flex;
@@ -530,7 +533,7 @@ footer img {
     font-weight: 700px;
     overflow: visible;
   }
-  .sign a, .sign p{
+  .block .sign {
     font-size: 30px;
     font-weight: 700px;
   }

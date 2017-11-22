@@ -466,14 +466,18 @@ footer img {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
-  .btn {
+  
+  header .nav-btn, section .btn-primary, section .btn-secondary {
     font-size: 30px;
   }
-  h2 {
-    font-size: 80px;
+  .jumbotron h2 {
+    font-size: 100px;
   }
-  h3 {
+  h2 {
     font-size: 50px;
+  }
+  .jumbotron h3 {
+    font-size: 40px;
   }
   #banner-mainpage {
     background-color: #207994;
@@ -513,7 +517,7 @@ footer img {
     text-align: center;
     width: 90%;
   }
-  .photo img {
+  .photo {
     width: 500px;
     height: 500px;
   }

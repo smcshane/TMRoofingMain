@@ -20,8 +20,6 @@
   }
   
   /* nav bar */
-
-
   header h1 {
     font-weight: 700;
     margin: 0;
@@ -475,7 +473,6 @@ footer img {
   .icons h4, .third-container h4 {
     font-size: 40px;
   }
-
   .icons {
     display: block;
     margin: auto;
@@ -483,19 +480,31 @@ footer img {
   }
   .icons .icon-text {
     font-size: 40px;
-}
+  }
   #services .cards {
     display: block;
     margin: auto;
     text-align: center;
   }
-  
+  .cards h4 {
+    font-size: 40px;
+  }
+  .cards .overlay-text {
+    font-size: 40px;
+  }
   .third-container .block {
     display: block;
     margin: auto;
     text-align: center;
     width: 80%;
+    font-size: 40px;
   }
-
+  header, footer {
+    font-size: 30px;
+  }
+  footer img {
+    width: 80px;
+    height: 80px;
+  }
 
 }

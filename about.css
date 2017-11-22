@@ -161,25 +161,21 @@
         float: none;
         text-align: center;
         width: 80%;
-
+        margin-right: 0;
     }    
     #filter {
         display: none;
     }
-
     #banner1, #banner2 {
         height: 150px;
         padding: 5%;
     }
-
     #banner1 h3, #banner2 h3 {
         font-size: 18px;
     }
-
     .contact-btn {
         padding: 0;
     }
-    
     .images-left, .images-right {
         display: block;
         margin: auto;

@@ -25,7 +25,6 @@
     opacity: 0.7;
     position: absolute;
     z-index: 0;
-
 }
 
 .jumbotron .about-header {
@@ -162,17 +161,19 @@
         text-align: center;
         width: 100%;
     }    
+    .jumbotron .about-header h2 {
+        font-size: 100px;
+    }
+    .jumbotron .about-header h3 {
+        font-size: 40px;    
+    }
     .jumbotron .btn-tertiary {
         font-size: 32px;
     }
-    .jumbotron h2 {
-        font-size: 100px;
-    }
-    .jumbotron h3 {
-        font-size: 40px;
-    }
     #filter {
         width: 100%;
+        left: 0;
+        height: 550px;
     }
     #banner1, #banner2 {
         height: 200px;

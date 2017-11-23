@@ -484,7 +484,9 @@ footer img {
     padding: 30px;
     margin-top: -30px;
     height: 220px;
-    font-size: 45px;
+  }
+  .strip-text{
+    font-size: 45px; 
   }
   .strip-text a {
     color: #fff;
@@ -530,7 +532,7 @@ footer img {
     font-weight: 700px;
     overflow: visible;
   }
-  .block .sign a, .block .sign a {
+  .block .sign a, .block .sign p {
     font-size: 30px;
     font-weight: 700px;
   }

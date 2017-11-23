@@ -470,7 +470,7 @@ footer img {
   header .nav-btn, section .btn-primary, section .btn-secondary {
     font-size: 32px;
     padding: 12px;
-    border: 2px;
+    border: 2px solid;
   }
   .jumbotron .homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);

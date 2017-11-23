@@ -180,9 +180,6 @@
     #banner1, #banner2 {
         height: 270px;
     }
-    .contact-btn {
-        padding: 0;
-    }
     .images-left, .images-right {
         display: block;
         margin: auto;

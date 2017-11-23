@@ -467,8 +467,8 @@ footer img {
 
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
   
-  header .nav-btn, section .btn-primary, section .btn-secondary, .jumbotron .btn-tertiary {
-    font-size: 35px;
+  header .nav-btn, section .btn-primary, section .btn-secondary {
+    font-size: 32px;
   }
   .jumbotron h2 {
     font-size: 100px;
@@ -484,12 +484,9 @@ footer img {
     padding: 30px;
     margin-top: -30px;
     height: 220px;
-  }
-  .strip-text {
     font-size: 45px;
-    color: #fff;
   }
-  .strip-text h3, .strip-text:hover {
+  .strip-text a {
     color: #fff;
   }
   .icons h4, .third-container h4 {
@@ -533,7 +530,7 @@ footer img {
     font-weight: 700px;
     overflow: visible;
   }
-  .block .sign {
+  .block .sign a, .block .sign a {
     font-size: 30px;
     font-weight: 700px;
   }

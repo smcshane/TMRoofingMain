@@ -162,8 +162,17 @@
         text-align: center;
         width: 100%;
     }    
+    .jumbotron .btn-tertiary {
+        font-size: 32px;
+    }
+    .jumbotron h2 {
+        font-size: 100px;
+    }
+    .jumbotron h3 {
+        font-size: 40px;
+    }
     #filter {
-        display: none;
+        width: 100%;
     }
     #banner1, #banner2 {
         height: 200px;

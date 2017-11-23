@@ -178,16 +178,8 @@
     }
     #banner1, #banner2 {
         height: 200px;
-        padding: 3% 5% 5% 5%;
+        padding: 3% 5% 10% 5%;
     }
-    /*#banner1 .strip-text h3 {
-        font-size: 45px;
-        color: #fff;
-    }
-    #banner2 .strip-text h3 {
-        font-size: 45px;
-        color: #fff;
-    } */
     .contact-btn {
         padding: 0;
     }

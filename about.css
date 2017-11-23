@@ -175,14 +175,13 @@
     }
     .jumbotron .btn-tertiary {
         font-size: 32px;
-        padding: 15px;
+        padding: 12px;
     }
     #banner1, #banner2 {
-        height: 250px;
+        height: 270px;
     }
     .contact-btn {
         padding: 0;
-        padding-top: 30px;
     }
     .images-left, .images-right {
         display: block;

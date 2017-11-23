@@ -160,6 +160,7 @@
         float: none;
         text-align: center;
         width: 100%;
+        background-color: hsla(0, 0%, 3%, 0.3);
     }    
     .jumbotron .about-header h2 {
         font-size: 100px;
@@ -170,19 +171,14 @@
     .jumbotron .btn-tertiary {
         font-size: 32px;
     }
-    #filter {
-        width: 100%;
-        left: 0;
-        height: 550px;
-    }
     #banner1, #banner2 {
         height: 200px;
         padding: 3% 5% 5% 5%;
     }
-    .strip-text {
+    #banner1 .strip-text, #banner2 .strip-text {
         font-size: 35px;
         color: #fff;
-      }
+    }
     .contact-btn {
         padding: 0;
     }

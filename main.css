@@ -470,6 +470,9 @@ footer img {
   header .nav-btn, section .btn-primary, section .btn-secondary {
     font-size: 32px;
   }
+  .jumbotron .homepage-header {
+    background-color: hsla(0, 0%, 3%, 0.3);
+  }
   .jumbotron h2 {
     font-size: 100px;
   }
@@ -485,7 +488,7 @@ footer img {
     margin-top: -30px;
     height: 220px;
   }
-  .strip-text{
+  #banner-mainpage .strip-text {
     font-size: 45px; 
   }
   .strip-text a {

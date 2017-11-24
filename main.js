@@ -56,6 +56,18 @@ $(document).ready(function () {
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
 
+    if (isMobile()) {
+        $firstImg.waypoint(function () {
+            $(".info-right1").fadeIn("slow");
+        });
+        $secondImg.waypoint(function () {
+            $(".info-left").fadeIn("slow");
+        });
+        $thirdImg.waypoint(function () {
+            $(".info-right2").fadeIn("slow");
+        });
+    }
+
     if (!isMobile()) {
         $firstImg.waypoint(function () {
             $(".info-right1").animate({right: '40%'}, 'slow');
@@ -66,14 +78,6 @@ $(document).ready(function () {
         $thirdImg.waypoint(function () {
             $(".info-right2").animate({right: '40%'}, 'slow');
             }, { offset: '40%' }); 
-    }
-   
-   
-   /* if($(window).width() >= 800) {        
-        $firstImg.waypoint(function () {
-            $(".info-right1").animate({right: '40%'}, 'slow');
-        }, { offset: '40%' }); }*/
-    
-    
+    } 
 });
 

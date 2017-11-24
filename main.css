@@ -22,7 +22,7 @@ footer .row {
 /* nav bar */
 
 #logo img {
-  height: 60px;
+  height: 50px;
   width: auto;
   margin: -5px 0px;
 }
@@ -556,10 +556,10 @@ footer img {
     font-size: 40px;
   }
   .cards .overlay-text {
-    font-size: 35px;
+    font-size: 37px;
   }
   .overlay-text p {
-    font-size: 30px;
+    font-size: 35px;
   }
   .third-container .block {
     display: block;

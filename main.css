@@ -2,89 +2,112 @@
     box-sizing: border-box;
   }
 
-  body {
-    font-family: 'Lato', Helvetica, sans-serif;
-    font-weight: 300;    
-  }
-  
-  header {
-    padding: 1.5% 0;
-    background-color: #fff;
-    overflow: hidden;
-  }
-  
-  header .row,
-  footer .row {
-    display: flex;
-    align-items: center;
-  }
-  
-  /* nav bar */
+body {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 300;    
+}
 
-  header h1 {
-    font-weight: 700;
-    margin: 0;
-  }
-  
-  header .nav-btn {
-    padding: 0 20px;
-    margin: 0px 8px;
-    display: inline-block;
-    padding: 6px 14px;
-    font-size: 17px;
-    border: 1px solid #207994;
-    color: #207994;
-  }
+header {
+  padding: 1.5% 0;
+  background-color: #fff;
+  overflow: hidden;
+}
 
-  header .nav-btn:hover {
-    background-color: #6CA6CD;
-    color: #fff;
-  }
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+/* nav bar */
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header .nav-btn {
+  padding: 0 20px;
+  margin: 0px 8px;
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 17px;
+  border: 1px solid #207994;
+  color: #207994;
+}
+
+header .nav-btn:hover {
+  background-color: #6CA6CD;
+  color: #fff;
+}
+
+/* Side Call bar */
+
+.sidenav {
+  height: 20%; /* 100% Full-height */
+  width: auto; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Stay on top */
+  bottom: 0;
+  right: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow: hidden;
+  border-radius: 10%;
+  visibility: hidden;
+}
+.sidenav a {
+  display: block;
+}
+.sidenav img {
+  height: 100%;
+  width: auto;
+}
 
 /* header section */
 
-  .jumbotron {
-    display: flex;
-    align-items: center;
-    background-image: url('./bannerimage.jpg');
-    background-size: cover;
-    filter: grayscale(10%);
-    color: #ffffff;
-    height: 550px;
-    text-shadow: 1px 1px 1px #000000;
-    position: relative;
-  }
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('./bannerimage.jpg');
+  background-size: cover;
+  filter: grayscale(10%);
+  color: #ffffff;
+  height: 550px;
+  text-shadow: 1px 1px 1px #000000;
+  position: relative;
+}
 
-  .jumbotron h2 {
-    font-size: 70px;
-    font-weight: 700;
-    margin: 0;
-    color: #fff;
-  }
-  
-  .jumbotron h3 {
-    margin: 0 0 20px;
-    color: #fff;
-  }
+.jumbotron h2 {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
 
-  section .btn-primary {
-      font-size: 18px;
-      padding: 7px 9px;
-      background-color: #18608D;
-      border-color: #124F77;
-  }
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
 
-  section .btn-primary:hover { 
-    background-color: #6CA6CD;
-    color: #fff;
-  }
+section .btn-primary {
+  font-size: 18px;
+  padding: 7px 9px;
+  background-color: #18608D;
+  border-color: #124F77;
+}
 
-  section .btn-secondary {
-    font-size: 18px;
-    padding: 7px 9px;
-    background-color: #18608D;
-    border-color: #124F77;
-    color: #fff;
+section .btn-primary:hover { 
+  background-color: #6CA6CD;
+  color: #fff;
+}
+
+section .btn-secondary {
+  font-size: 18px;
+  padding: 7px 9px;
+  background-color: #18608D;
+  border-color: #124F77;
+  color: #fff;
 }
 
 section .btn-secondary:hover { 
@@ -471,6 +494,9 @@ footer img {
     font-size: 32px;
     padding: 12px;
     border: 2px solid;
+  }
+  .sidenav {
+    visibility: visible;
   }
   .jumbotron .homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);

@@ -30,11 +30,10 @@ body {
     height: auto;
     display: block;
     max-width: 100%;
-
 }
 
 section {
-    margin: 40px 0px 70px 0px;
+    margin: 40px 0px 100px 0px;
 }
 
 section .controls {
@@ -72,16 +71,16 @@ label {
     margin-bottom: 20px;
 }
 
-.container img {
-    padding: 50px 0px 10px 40px;
-    height: 550px;
+.container iframe {
+    margin: 10% 0 0 5%;
+    padding: 0;
     max-width: 100%;
-    opacity: 0.8;
     overflow: hidden;
+    box-shadow: 0px 0px 8px 0px #333;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
-    .container img {
+    .container .iframe {
         display: none;
     }
 }

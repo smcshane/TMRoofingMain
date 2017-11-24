@@ -44,8 +44,8 @@ header .nav-btn:hover {
 /* Side Call bar */
 
 .sidenav {
-  height: 20%; /* 100% Full-height */
-  width: auto; /* 0 width - change this with JavaScript */
+  height: 15%; /* 100% Full-height */
+  width: 15%; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 5; /* Stay on top */
   bottom: 0;
@@ -53,7 +53,7 @@ header .nav-btn:hover {
   background-color: #fff; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   overflow: hidden;
-  border-radius: 10%;
+  border-radius: 9%;
   visibility: hidden;
 }
 .sidenav a {

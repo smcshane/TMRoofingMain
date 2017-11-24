@@ -48,7 +48,7 @@ header .nav-btn:hover {
   width: 13%; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 5; /* Stay on top */
-  bottom: 10px;
+  bottom: 30px;
   right: 0;
   background-color: #fff; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */

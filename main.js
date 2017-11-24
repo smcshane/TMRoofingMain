@@ -37,7 +37,6 @@ $(document).ready(function () {
     });
 
     // Setting waypoint animations
-
     //banner 1
 
     var $strip = $('#banner1');
@@ -46,26 +45,29 @@ $(document).ready(function () {
         $(".strip-text").fadeIn("slow");
     }, { offset: '70%' });
 
-/*
+
+    // Info next to images
+    
     var $firstImg = $('.image1');
-
-    $firstImg.waypoint(function () {
-        $(".info-right1").animate({right: '40%'}, 'slow');
-    }, { offset: '40%' });
-
+    if($(window).width() >= 700) {        
+        $firstImg.waypoint(function () {
+            $(".info-right1").animate({right: '40%'}, 'slow');
+        }, { offset: '40%' });
+    }
 
     var $secondImg = $('.image2');
-
+    if($(window).width() >= 700) { 
     $secondImg.waypoint(function () {
         $(".info-left").animate({left: '40%'}, 'slow');
     }, { offset: '40%' });
+    }
     
     var $thirdImg = $('.image3');
-    
+    if($(window).width() >= 700) {
     $thirdImg.waypoint(function () {
         $(".info-right2").animate({right: '40%'}, 'slow');
-    }, { offset: '40%' }); */
-
+        }, { offset: '40%' }); 
+    }
     
 });
 

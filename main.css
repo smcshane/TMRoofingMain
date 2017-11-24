@@ -21,6 +21,11 @@ footer .row {
 
 /* nav bar */
 
+#logo img {
+  height: 60px;
+  width: auto;
+  margin: -5px 0px;
+}
 header h1 {
   font-weight: 700;
   margin: 0;
@@ -280,7 +285,7 @@ section .row img {
 
 .image-container {
     position: relative;
-    width: auto;
+    width: 100%;
     height: auto;    
 }
 
@@ -297,8 +302,7 @@ section .row img {
 
 .image-container:hover .overlay {
     display: block;
-    background: #43494B;
-    opacity: 0.8;
+    background: rgba(8, 8, 8, 0.6); 
 }
 
 .cards h4 {
@@ -307,10 +311,9 @@ section .row img {
 }
 
 .overlay-text {
+    width: 80%;
     font-weight: 450;
-    white-space: nowrap; 
     color: white;
-    font-size: 20px;
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -319,8 +322,15 @@ section .row img {
     -ms-transform: translate(-50%, -50%);
 }
 
+.overlay-text h4 {
+  font-size: 22px;
+  text-decoration: underline;
+  margin-left: -4%;
+}
+
 .overlay-text p {
     font-size: 15px;
+    margin-top: -5%;
 }
 
 
@@ -546,7 +556,10 @@ footer img {
     font-size: 40px;
   }
   .cards .overlay-text {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .overlay-text p {
+    font-size: 25px;
   }
   .third-container .block {
     display: block;

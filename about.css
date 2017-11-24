@@ -123,11 +123,11 @@
     vertical-align: middle;
     margin-top: 6%;
 }
-/*
+
 .inner-box {
     margin-right: -110%;
     margin-left: 120%;
-} */
+}
 
 .images-right {
     height: auto;
@@ -137,11 +137,11 @@
     margin-top: -10px;
     margin-bottom: -10px;
 }
-/*
+
 .inner-box2 {
     margin-right: 125%;
     margin-left: -125%;
-} */
+} 
 
 .info-left {
     vertical-align: middle;
@@ -202,6 +202,14 @@
         line-height: normal;
         font-weight: 700px;
     }
+    .inner-box {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .inner-box2 {
+        margin-right: 0;
+        margin-left: 0;
+    } 
     #order {
         display: flex;
         flex-direction: column;

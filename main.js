@@ -49,25 +49,31 @@ $(document).ready(function () {
     // Info next to images
     
     var $firstImg = $('.image1');
-    if($(window).width() >= 800) {        
+    var $secondImg = $('.image2');
+    var $thirdImg = $('.image3');
+   
+    function isMobile() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    if (!isMobile()) {
         $firstImg.waypoint(function () {
             $(".info-right1").animate({right: '40%'}, 'slow');
         }, { offset: '40%' });
-    }
-
-    var $secondImg = $('.image2');
-    if($(window).width() >= 800) { 
         $secondImg.waypoint(function () {
             $(".info-left").animate({left: '40%'}, 'slow');
         }, { offset: '40%' });
-    }
-    
-    var $thirdImg = $('.image3');
-    if($(window).width() >= 800) {
         $thirdImg.waypoint(function () {
             $(".info-right2").animate({right: '40%'}, 'slow');
             }, { offset: '40%' }); 
     }
+   
+   
+   /* if($(window).width() >= 800) {        
+        $firstImg.waypoint(function () {
+            $(".info-right1").animate({right: '40%'}, 'slow');
+        }, { offset: '40%' }); }*/
+    
     
 });
 

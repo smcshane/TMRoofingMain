@@ -192,7 +192,7 @@
         font-size: 45px;
     }
     .info-left, .info-right1, .info-right2 {
-        display: block;
+        display: none;
         margin: auto;
         margin-top: 2%;
         margin-bottom: 10%;

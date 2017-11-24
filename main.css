@@ -44,8 +44,8 @@ header .nav-btn:hover {
 /* Side Call bar */
 
 .sidenav {
-  height: 9%; /* 100% Full-height */
-  width: 13%; /* 0 width - change this with JavaScript */
+  height: 52px; /* 100% Full-height */
+  width: 42px; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 5; /* Stay on top */
   bottom: 30px;
@@ -61,7 +61,7 @@ header .nav-btn:hover {
 }
 .sidenav img {
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 /* header section */

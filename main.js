@@ -49,7 +49,7 @@ $(document).ready(function () {
     // Info next to images
     
     var $firstImg = $('.image1');
-    if($(window).width() >= 700) {        
+    if($(window).width() >= 800) {        
         $firstImg.waypoint(function () {
             $(".info-right1").animate({right: '40%'}, 'slow');
         }, { offset: '40%' });

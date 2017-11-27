@@ -74,7 +74,7 @@ header .nav-btn:hover {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('./bannerimage.jpg');
+  background-image: url('./mainbanner.jpg');
   background-size: cover;
   filter: grayscale(10%);
   color: #ffffff;

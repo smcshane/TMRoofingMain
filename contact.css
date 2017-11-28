@@ -6,8 +6,8 @@ body {
 .carousel-inner {
     display: block;
     width: 100%;
+    height: 515px;
     box-sizing: border-box;
-    max-height: 550px;
 }
 
 .img-responsive {
@@ -16,6 +16,29 @@ body {
     display: block;
 }
 
+.carousel-inner:hover .carousel-caption {
+    display: block;
+}
+
+.carousel-caption {
+    background: rgba(8, 8, 8, 0.6); 
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+    background:rgba(0,0,0,0.7);
+    padding: 0 6% 5% 6%;
+    display: none;
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+#lead-work {
+    padding: 0 6% 7% 6%;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
 #contact-form {
     background-color: #fff;
     border-width: 1px;

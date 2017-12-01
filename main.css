@@ -37,13 +37,15 @@ header .nav-btn {
   display: inline-block;
   padding: 6px 14px;
   font-size: 17px;
-  border: 1px solid #207994;
-  color: #207994;
+  border: 1px solid #90918c;
+  color: #fff;
+  background-color: #90918c;
 }
 
 header .nav-btn:hover {
-  background-color: #6CA6CD;
+  background-color: #3DBF5B;
   color: #fff;
+  border-color: #3DBF5B;
 }
 
 /* Side Call bar */
@@ -98,26 +100,28 @@ header .nav-btn:hover {
 section .btn-primary {
   font-size: 18px;
   padding: 7px 9px;
-  background-color: #18608D;
-  border-color: #124F77;
+  background-color: #3DBF5B;
+  border-color: #3DBF5B;
+  border-width: 2px;
 }
 
 section .btn-primary:hover { 
-  background-color: #6CA6CD;
+  background-color: #90918c;
+  border-color: #3DBF5B;
   color: #fff;
 }
 
 section .btn-secondary {
   font-size: 18px;
   padding: 7px 9px;
-  background-color: #18608D;
-  border-color: #124F77;
+  background-color: #3DBF5B;
+  border-color: #3DBF5B;
   color: #fff;
   display: none;
 }
 
 section .btn-secondary:hover { 
-  background-color: #6CA6CD;
+  background-color: #90918c;
   color: #fff;
 }
 
@@ -130,7 +134,7 @@ section .btn-secondary:hover {
 /* banner spilt */
 
 #banner-mainpage {
-  background-color: #7cc549;
+  background-color: #3DBF5B;
   padding: 30px;
   margin-top: -30px;
   height: 180px;
@@ -275,7 +279,7 @@ section .cards {
 }
 
 section .cards:hover {
-  box-shadow: 0 4px 8px 0 #6CA6CD;
+  box-shadow: 0 4px 8px 0 #3DBF5B;
 }
 
 section .row img {
@@ -417,7 +421,7 @@ section .row img {
   border-radius: 50%;
   box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.2); 
   border: solid;
-  border-color: #207994;
+  border-color: #3DBF5B;
   border-width: 4px;
 }
 

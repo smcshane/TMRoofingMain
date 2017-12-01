@@ -52,27 +52,27 @@
 .jumbotron .btn-tertiary {
     font-size: 18px;
     padding: 7px 9px;
-    background-color: #18608D;
-    border-color: #124F77;
+    background-color: #3DBF5B;
+    border-color: #3DBF5B;
     color: #fff;
 }
 
 .jumbotron .btn-tertiary:hover { 
-    background-color: #6CA6CD;
+    background-color: #90918c;
     color: #fff;
 }
 
 /* banner spilt */
 
 #banner1 {
-    background-color: #207994;
+    background-color: #3DBF5B;
     padding: 50px;
     margin-top: -30px;
     height: 220px;
 }
 
 #banner2 {
-    background-color: #207994;
+    background-color: #3DBF5B;
     padding: 40px;
     margin-top: -110px;
 }

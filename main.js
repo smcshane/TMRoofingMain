@@ -43,7 +43,7 @@ $(document).ready(function () {
 
     $strip.waypoint(function () {
         $(".strip-text").fadeIn("slow");
-    }, { offset: '70%' });
+    }, { offset: '80%' });
 
 
     // Info next to images

@@ -63,9 +63,9 @@ $(document).ready(function () {
         $secondImg.waypoint(function () {
             $(".info-left").fadeIn("slow");
         });
-        $thirdImg.waypoint(function () {
+        /* $thirdImg.waypoint(function () {
             $(".info-right2").fadeIn("slow");
-        });
+        }); */
     }
 
     if (!isMobile()) {

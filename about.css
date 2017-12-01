@@ -187,8 +187,18 @@
     .first-section h3 {
         font-size: 45px;
     }
-    .info-left, .info-right1, .info-right2 {
+    .info-left, .info-right1 {
         display: none;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 10%;
+        text-align: center;
+        width: 80%;
+        font-size: 40px;
+        line-height: normal;
+        font-weight: 700px;
+    }
+    .info-right2 {
         margin: auto;
         margin-top: 2%;
         margin-bottom: 10%;

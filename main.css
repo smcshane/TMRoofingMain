@@ -509,6 +509,11 @@ footer img {
   margin: 2% -3% 2% -3%;
 }
 
+#copyright  {
+  color: #90918c;
+  font-size: 15px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
   
   header .nav-btn, section .btn-primary, section .btn-secondary {

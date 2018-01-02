@@ -522,8 +522,26 @@ footer img {
     border: 2px solid;
   }
   .sidenav {
+    height: 150px; /* 100% Full-height */
+    width: 150px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Stay on top */
+    bottom: 50px;
+    right: 5px;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow: hidden;
+    border-radius: 9%;
     visibility: visible;
   }
+  .sidenav a {
+    display: block;
+  }
+  .sidenav img {
+    height: 100%;
+    width: 100%;
+  }
+
   .jumbotron .homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
     padding: 50px 0px;

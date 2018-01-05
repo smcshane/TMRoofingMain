@@ -614,29 +614,23 @@ footer img {
   .overlay-text p {
     font-size: 35px;
   }
-  .third-container .block {
-    display: block;
-    margin: auto;
-    text-align: center;
-    width: 90%;
-  }
-  .photo img {
-    width: 400px;
-    height: 400px;
-  }
-  .block {
-    display: flex;
-  }
-  .block p.content {
+
+  .item .content {
+    line-height: 28px;
     font-size: 30px;
-    line-height: normal;
-    font-weight: 700px;
-    overflow: visible;
+    font-weight: 400;
   }
-  .block .sign a, .block .sign p {
+  .item .sign a {
     font-size: 30px;
-    font-weight: 700px;
   }
+  
+  .item .sign p {
+    font-size: 30px;
+    font-weight: 450;  
+    line-height:15px;
+    margin-top: 6px;
+  }
+
   header, footer {
     font-size: 35px;
     font-weight: 500px;

@@ -355,7 +355,7 @@ section .row img {
 
 .third-container .container {
   overflow: hidden;
-  width: 98%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -393,9 +393,10 @@ section .row img {
 /* Carousel */
 
 #quote-carousel {
-  padding: 0 10px 30px 10px;
+  padding: 0 0px 30px 0;
   margin-top: 7%;
 }
+
 #quote-carousel .carousel-control {
   background: none;
   color: #11062E;
@@ -403,18 +404,21 @@ section .row img {
   text-shadow: none;
   margin-top: 30px;
 }
+
 #quote-carousel .carousel-control.left {
   left: -3%;
 }
+
 #quote-carousel .carousel-control.right {
   right: -3%;
 }
+
 #quote-carousel .carousel-indicators {
   right: 50%;
   top: auto;
   bottom: 0px;
-  margin-right: -19px;
 }
+
 #quote-carousel .carousel-indicators li {
   width: 50px;
   height: 50px;
@@ -426,6 +430,7 @@ section .row img {
   overflow: hidden;
   transition: all 0.4s;
 }
+
 #quote-carousel .carousel-indicators .active {
   background: #333333;
   width: 120px;
@@ -615,11 +620,17 @@ footer img {
     font-size: 35px;
   }
 
+  #quote-carousel {
+    margin-left: -5%;
+    margin-right: -5%;
+  }
+
   .item .content {
     line-height: 28px;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 32px;
+    font-weight: 380;
   }
+
   .item .sign a {
     font-size: 30px;
   }
@@ -629,6 +640,10 @@ footer img {
     font-weight: 450;  
     line-height:15px;
     margin-top: 6px;
+  }
+
+  #quote-carousel .carousel-indicators {
+    top: 70%;
   }
 
   header, footer {

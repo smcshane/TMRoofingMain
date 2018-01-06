@@ -627,7 +627,7 @@ footer img {
   }
 
   .item .content {
-    line-height: 28px;
+    line-height: 30px;
     font-size: 32px;
     font-weight: 250;
   }
@@ -654,7 +654,7 @@ footer img {
   }
 
   #rated-icon {
-    margin-top: 8%;
+    margin-top: 15%;
   }
 
   header, footer {

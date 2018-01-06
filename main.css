@@ -622,12 +622,13 @@ footer img {
   }
 
   #quote-carousel {
+    margin-top: 15%;
     margin-left: -5%;
     margin-right: -5%;
   }
 
   .item .content {
-    line-height: 30px;
+    line-height: 32px;
     font-size: 32px;
     font-weight: 250;
   }
@@ -654,7 +655,7 @@ footer img {
   }
 
   #rated-icon {
-    margin-top: 15%;
+    margin-top: 18%;
   }
 
   header, footer {

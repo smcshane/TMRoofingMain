@@ -416,7 +416,7 @@ section .row img {
 #quote-carousel .carousel-indicators {
   right: 50%;
   top: auto;
-  bottom: 0px;
+  bottom: 0; 
 }
 
 #quote-carousel .carousel-indicators li {
@@ -501,7 +501,7 @@ section .row img {
 }
 
 #rated-icon {
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 
@@ -629,7 +629,7 @@ footer img {
   .item .content {
     line-height: 28px;
     font-size: 32px;
-    font-weight: 350;
+    font-weight: 250;
   }
 
   .item .sign a {
@@ -651,6 +651,10 @@ footer img {
   .item blockquote {
     border-left: none;
     margin: 0 -10%;
+  }
+
+  #rated-icon {
+    margin-top: 8%;
   }
 
   header, footer {

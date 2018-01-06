@@ -306,7 +306,7 @@ section .row img {
 }
 
 .image-container:hover .overlay, 
-.image-container:focus .overlay {
+.image-container:active .overlay {
     display: block;
     background: rgba(8, 8, 8, 0.6); 
     opacity:1.0;

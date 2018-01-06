@@ -628,7 +628,7 @@ footer img {
   .item .content {
     line-height: 28px;
     font-size: 32px;
-    font-weight: 380;
+    font-weight: 350;
   }
 
   .item .sign a {
@@ -643,7 +643,7 @@ footer img {
   }
 
   #quote-carousel .carousel-indicators {
-    top: 70%;
+    top: 90%;
   }
 
   header, footer {

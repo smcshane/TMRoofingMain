@@ -305,7 +305,7 @@ section .row img {
     filter:alpha(opacity=0);
 }
 
-.image-container:hover .overlay {
+.image-container:hover .overlay, .image-container:active .overlay {
     display: block;
     background: rgba(8, 8, 8, 0.6); 
     opacity:1.0;
@@ -620,44 +620,36 @@ footer img {
   .overlay-text p {
     font-size: 35px;
   }
-
   #quote-carousel {
     margin-top: 15%;
     margin-left: -5%;
     margin-right: -5%;
   }
-
   .item .content {
     line-height: 36px;
     font-size: 33px;
     font-weight: 250;
   }
-
   .item .sign a {
     font-size: 30px;
   }
-  
   .item .sign p {
     font-size: 30px;
     font-weight: 450;  
     line-height:15px;
     margin-top: 6px;
   }
-
   #quote-carousel .carousel-indicators {
     top: 85%;
     left: 35%;
   }
-
   .item blockquote {
     border-left: none;
     margin: 0 -10%;
   }
-
   #rated-icon {
     margin-top: 18%;
   }
-
   header, footer {
     font-size: 35px;
     font-weight: 500px;
@@ -666,5 +658,4 @@ footer img {
     width: 120px;
     height: 120px;
   }
-
 }

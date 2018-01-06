@@ -305,7 +305,8 @@ section .row img {
     filter:alpha(opacity=0);
 }
 
-.image-container:hover .overlay, .image-container:active .overlay {
+.image-container:hover .overlay, 
+.image-container:focus .overlay {
     display: block;
     background: rgba(8, 8, 8, 0.6); 
     opacity:1.0;

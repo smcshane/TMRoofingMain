@@ -444,9 +444,10 @@ section .row img {
 .carousel-inner {
   min-height: 300px;
 }
+
 .item blockquote {
   border-left: none;
-  margin: 0;
+  margin: 0 -5%;
 }
 
 .item .content {
@@ -643,7 +644,13 @@ footer img {
   }
 
   #quote-carousel .carousel-indicators {
-    top: 90%;
+    top: 80%;
+    left: 35%;
+  }
+
+  .item blockquote {
+    border-left: none;
+    margin: 0 -10%;
   }
 
   header, footer {

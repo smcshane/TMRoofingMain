@@ -51,14 +51,14 @@ header .nav-btn:hover {
 /* Side Call bar */
 
 .sidenav {
-  height: 150px; /* 100% Full-height */
-  width: 150px; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 5; /* Stay on top */
+  height: 150px; 
+  width: 150px; 
+  position: fixed;
+  z-index: 5;
   bottom: 50px;
   right: 5px;
-  background-color: #fff; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #fff;
+  overflow-x: hidden;
   overflow: hidden;
   border-radius: 9%;
   visibility: hidden;
@@ -129,6 +129,10 @@ section .btn-secondary:hover {
   display:none;
   position: relative;
   margin-right: 50px;
+}
+
+#homepage-header {
+  display: none;
 }
 
 /* banner spilt */
@@ -452,8 +456,8 @@ section .row img {
 }
 
 .item .content {
-  font-style:italic;
-  line-height:28px;
+  font-style: italic;
+  line-height: 28px;
   font-size: 18px;
   font-weight: 400;
   color: #000;
@@ -461,30 +465,30 @@ section .row img {
 
 .item .content span.laquo {
   background: url(img/laquo.png) no-repeat;
-  width:14px;
-  height:11px;
-  position:absolute;
-  left:0;
-  top:4px;
-  display:block;
+  width: 14px;
+  height: 11px;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  display: block;
 }
 
 .item .content span.raquo {
   background: url(img/raquo.png) no-repeat right 4px;
-  width:13px;
-  height:15px;
+  width: 13px;
+  height: 15px;
   padding-left: 20px;
-  display:inline-block;
+  display: inline-block;
 }
 
 .item .sign{
-  text-align:right;
-  float:right;
+  text-align: right;
+  float: right;
 }
 
 .item .sign a {
   color:#1BA176;
-  font-size:16px;
+  font-size: 16px;
   text-decoration: none;
   font-weight: 500;
 }
@@ -495,10 +499,10 @@ section .row img {
 
 .item .sign p {
   color: rgb(122, 121, 124);
-  font-size:15px;
+  font-size: 15px;
   font-weight: 450;  
-  line-height:15px;
-  margin-top:6px;
+  line-height: 15px;
+  margin-top: 6px;
 }
 
 #rated-icon {
@@ -549,14 +553,14 @@ footer img {
     border: 2px solid;
   }
   .sidenav {
-    height: 150px; /* 100% Full-height */
-    width: 150px; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 5; /* Stay on top */
+    height: 150px; 
+    width: 150px; 
+    position: fixed; 
+    z-index: 5; 
     bottom: 50px;
     right: 5px;
-    background-color: #fff; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #fff; 
+    overflow-x: hidden;
     overflow: hidden;
     border-radius: 9%;
     visibility: visible;
@@ -569,7 +573,7 @@ footer img {
     width: 100%;
   }
 
-  .jumbotron .homepage-header {
+  .jumbotron #homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
     padding: 50px 0px;
   }

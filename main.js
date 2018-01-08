@@ -6,21 +6,23 @@ $(document).ready(function () {
     /* Fade in title on homepage */
 
     $(document).ready(function () {
-        $(".homepage-header").fadeIn("slow");
+        $("#homepage-header").fadeIn("slow");
     });
 
-     // Video appears when button clicked on main page
+     // Video appears when button clicked on main page (Currently invalid as video visibility set to none!)
     
     $(".btn-secondary").click(function () {
-        $(".homepage-header").hide();
+        $("#homepage-header").hide();
         $(".jumbotron video").fadeToggle('slow');
         $('video').get(0).play();
     });
 
     $("video").on('ended',function(){
         $("video").hide();
-        $(".homepage-header").fadeIn("slow");
+        $("#homepage-header").fadeIn("slow");
     });
+
+    // Fade in banner text
 
     var $strip = $('#banner-mainpage');
     

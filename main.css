@@ -395,6 +395,15 @@ section .row img {
  margin-right: -50%;
 }
 
+#ratedpeople {
+  float: right;
+  margin: -7% 10% 0 0;
+}
+
+#ratedpeople img {
+  width: 80%;
+}
+
 /* Carousel */
 
 #quote-carousel {

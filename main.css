@@ -395,6 +395,15 @@ section .row img {
  margin-right: -50%;
 }
 
+#checkatrade {
+  margin: -6% 0 0 13%;
+  float: left;
+}
+
+#checkatrade img {
+  width: 30%;
+}
+
 #ratedpeople {
   float: right;
   margin: -7% 10% 0 0;
@@ -663,6 +672,10 @@ footer img {
   }
   #rated-icon {
     margin-top: 18%;
+  }
+  #checkatrade {
+    margin: -11% 0 0 6%;
+    float: left;
   }
   #ratedpeople {
     float: right;

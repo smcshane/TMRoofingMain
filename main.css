@@ -652,7 +652,7 @@ footer img {
     line-height: 36px;
     font-size: 33px;
     font-weight: 250;
-  }
+  }*/
   .item .sign a {
     font-size: 30px;
   }
@@ -661,15 +661,16 @@ footer img {
     font-weight: 450;  
     line-height:15px;
     margin-top: 6px;
-  }*/
-  #quote-carousel .carousel-indicators {
+  }
+  /*#quote-carousel .carousel-indicators {
     top: 85%;
     left: 35%;
+    display: none;
   }
   .item blockquote {
     border-left: none;
     margin: 0 -10%;
-  }
+  }*/
   #rated-icon {
     margin-top: 18%;
   }

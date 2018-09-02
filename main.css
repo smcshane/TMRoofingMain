@@ -591,19 +591,16 @@ footer img {
     width: 100%;
   }
 
+  .jumbotron {
+    display: flex;
+    background-size: cover;
+    filter: grayscale(10%);
+    color: #ffffff;
+  }
   .jumbotron #homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
     padding: 50px 0px;
   }
-  /*.jumbotron h1 {
-    font-size: 100px;
-  }
-  h2 {
-    font-size: 60px;
-  }
-  .jumbotron h3 {
-    font-size: 40px;
-  } */
   #banner-mainpage {
     margin-top: -30px;
     height: 250px;
@@ -645,8 +642,8 @@ footer img {
   }
   #quote-carousel {
     margin-top: 15%;
-    margin-left: -12%;
-    margin-right: -12%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .item .sign a {
     font-size: 16px;
@@ -663,10 +660,14 @@ footer img {
     border-left: none;
     margin: 0 -50%;
   }
-
   #quote-carousel .carousel-indicators {
-    top: 50%;
+    top: 70%;
     bottom: 0; 
+  }
+
+  #quote-carousel .carousel-indicators .active {
+    width: 60px;
+    height: 60px;
   }
 
   #rated-icon {

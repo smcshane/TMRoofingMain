@@ -26,10 +26,6 @@ footer .row {
   width: auto;
   margin: -5px 0px;
 }
-header h1 {
-  font-weight: 700;
-  margin: 0;
-}
 
 header .nav-btn {
   padding: 0 20px;
@@ -85,7 +81,7 @@ header .nav-btn:hover {
   position: relative;
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
   font-size: 70px;
   font-weight: 700;
   margin: 0;
@@ -595,7 +591,7 @@ footer img {
     background-color: hsla(0, 0%, 3%, 0.6);
     padding: 50px 0px;
   }
-  .jumbotron h2 {
+  .jumbotron h1 {
     font-size: 100px;
   }
   h2 {

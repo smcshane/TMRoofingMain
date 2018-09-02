@@ -37,7 +37,7 @@
     z-index: 1;
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
     font-size: 60px;
     font-weight: 700;
     margin: 0;
@@ -163,7 +163,7 @@
     #filter {
         display: none;
     }
-    .jumbotron .about-header h2 {
+    .jumbotron .about-header h1 {
         font-size: 100px;
     }
     .jumbotron .about-header h3 {

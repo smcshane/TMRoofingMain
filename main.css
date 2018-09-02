@@ -558,7 +558,7 @@ footer img {
   color: #90918c;
   font-size: 15px;
 }
-/*
+
 @media only screen and (min-width: 320px) and (max-width: 600px), (orientation: portrait) {
   
   header .nav-btn, section .btn-primary, section .btn-secondary {
@@ -567,8 +567,8 @@ footer img {
     border: 2px solid;
   }
   .sidenav {
-    height: 150px; 
-    width: 150px; 
+    height: 100px; 
+    width: 100px; 
     position: fixed; 
     z-index: 5; 
     bottom: 50px;
@@ -604,7 +604,7 @@ footer img {
     margin-top: -30px;
     height: 250px;
   }
-  .strip-text h3 {
+  /*.strip-text h3 {
     font-size: 40px; 
   }
   .strip-text a {

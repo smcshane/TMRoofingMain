@@ -586,7 +586,7 @@ footer img {
   }
 
   .jumbotron {
-    height: 400px;
+    height: 380px;
   }
   .jumbotron #homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
@@ -631,11 +631,12 @@ footer img {
   .overlay-text p {
     font-size: 22px;
   }
+  /*
   #quote-carousel {
     margin-top: 15%;
     margin-left: -15%;
     margin-right: -15%;
-  }
+  }*/
   .item .sign a {
     font-size: 16px;
   }
@@ -647,12 +648,12 @@ footer img {
   #quote-carousel .carousel-control {
     display: none;
   }
-  .item blockquote {
+  /*.item blockquote {
     border-left: none;
     margin: 0 -50%;
-  }
+  }*/
   #quote-carousel .carousel-indicators {
-    top: 100; 
+    top: 120px; 
   }
   #quote-carousel .carousel-indicators .active {
     width: 60px;

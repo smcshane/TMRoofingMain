@@ -152,7 +152,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
     .jumbotron {
-        height: 280px;
+        height: 275px;
     }
     .jumbotron .about-header {
         float: none;
@@ -170,7 +170,7 @@
         display: none;
     }
     #banner1 {
-        padding: 50px 20px 50px 50px;
+        padding: 20px 50px 50px 50px;
     }
     .images-left, .images-right {
         display: block;

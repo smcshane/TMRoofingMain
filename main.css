@@ -592,10 +592,7 @@ footer img {
   }
 
   .jumbotron {
-    display: flex;
-    background-size: cover;
-    filter: grayscale(10%);
-    color: #ffffff;
+    height: 550px;
   }
   .jumbotron #homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
@@ -642,8 +639,8 @@ footer img {
   }
   #quote-carousel {
     margin-top: 15%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .item .sign a {
     font-size: 16px;
@@ -661,8 +658,8 @@ footer img {
     margin: 0 -50%;
   }
   #quote-carousel .carousel-indicators {
-    top: 70%;
-    bottom: 0; 
+    top: 0;
+    bottom: 5%; 
   }
 
   #quote-carousel .carousel-indicators .active {
@@ -674,12 +671,10 @@ footer img {
     width: auto;
   }
   #checkatrade {
-    float: left;
-    height: 100px;
+    display: none;
   }
   #ratedpeople {
-    float: right;
-    height: 100px;
+    display: none;
   }
   header, footer {
     font-weight: 500px;

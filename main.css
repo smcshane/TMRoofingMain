@@ -561,12 +561,6 @@ footer img {
 
 @media only screen and (min-width: 320px) and (max-width: 600px), (orientation: portrait) {
   
-  /*header .nav-btn, section .btn-primary, section .btn-secondary {
-    font-size: 32px;
-    padding: 12px;
-    border: 2px solid;
-  }*/
-
   header .nav-btn, section .btn-primary, section .btn-secondary {
     border: 2px solid;
   }
@@ -592,7 +586,7 @@ footer img {
   }
 
   .jumbotron {
-    height: 450px;
+    height: 400px;
   }
   .jumbotron #homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
@@ -639,8 +633,8 @@ footer img {
   }
   #quote-carousel {
     margin-top: 15%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -15%;
+    margin-right: -15%;
   }
   .item .sign a {
     font-size: 16px;
@@ -660,12 +654,10 @@ footer img {
   #quote-carousel .carousel-indicators {
     top: 100; 
   }
-
   #quote-carousel .carousel-indicators .active {
     width: 60px;
     height: 60px;
   }
-
   #rated-icon {
     width: auto;
   }

@@ -118,22 +118,19 @@ label {
     #myCarousel {
         display: none;
     }
-
-
     #contact-form {
-        background-color: #fff;
-        border-width: 1px;
         margin-right: 0;
         margin-left: 0;
         max-width: 100%;
         height: auto;
         display: block;
     }
-
     .container iframe {
-        margin: 0;
+        margin-top: 2%;
         max-width: 100%;
-        overflow: hidden;
-        box-shadow: 0px 0px 8px 0px #333;
+    }
+    #business-info {
+        margin: 8% 0 -5% 2%;
+        color: #000;
     }
 }

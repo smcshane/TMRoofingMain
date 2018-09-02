@@ -584,9 +584,8 @@ footer img {
     height: 100%;
     width: 100%;
   }
-
   .jumbotron {
-    height: 380px;
+    height: 375px;
   }
   .jumbotron #homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
@@ -631,12 +630,6 @@ footer img {
   .overlay-text p {
     font-size: 22px;
   }
-  /*
-  #quote-carousel {
-    margin-top: 15%;
-    margin-left: -15%;
-    margin-right: -15%;
-  }*/
   .item .sign a {
     font-size: 16px;
   }
@@ -648,12 +641,8 @@ footer img {
   #quote-carousel .carousel-control {
     display: none;
   }
-  /*.item blockquote {
-    border-left: none;
-    margin: 0 -50%;
-  }*/
   #quote-carousel .carousel-indicators {
-    top: 120px; 
+    display: none;
   }
   #quote-carousel .carousel-indicators .active {
     width: 60px;
@@ -661,6 +650,7 @@ footer img {
   }
   #rated-icon {
     width: auto;
+    margin-top: 0;
   }
   #checkatrade {
     display: none;

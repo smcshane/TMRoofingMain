@@ -609,17 +609,17 @@ footer img {
     height: 250px;
   }
   .strip-text h3 {
-    font-size: 30px; 
+    font-size: 26px; 
   }
   .strip-text a {
     color: #fff;
-    font-size: 30px; 
+    font-size: 26px; 
   }
   .contact-btn {
-    padding-top: 30px;
+    padding-top: 20px;
   }
-  /*.icons h4, .third-container h4 {
-    font-size: 45px;
+  .icons h4, .third-container h4 {
+    font-size: 28px;
   }
   .icons {
     display: block;
@@ -627,22 +627,22 @@ footer img {
     text-align: center;
   }
   .icons .icon-text {
-    font-size: 40px;
-  }/*
+    font-size: 24px;
+  }
   #services .cards {
     display: block;
     margin: auto;
     text-align: center;
   }
   .cards h4 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .cards .overlay-text {
-    font-size: 37px;
+    font-size: 22px;
   }
   .overlay-text p {
-    font-size: 35px;
-  }
+    font-size: 22px;
+  }/*
   #quote-carousel {
     margin-top: 15%;
     margin-left: -5%;

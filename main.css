@@ -585,14 +585,15 @@ footer img {
     width: 100%;
   }
   .jumbotron {
-    height: 370px;
+    height: 350px;
   }
   .jumbotron #homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
     padding: 50px 0px;
   }
   .jumbotron h1 {
-    font-size: 40px;
+    font-size: 45px;
+    padding-bottom: 5%; 
   }
   #banner-mainpage {
     margin-top: -30px;

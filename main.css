@@ -592,7 +592,7 @@ footer img {
   }
 
   .jumbotron {
-    height: 550px;
+    height: 450px;
   }
   .jumbotron #homepage-header {
     background-color: hsla(0, 0%, 3%, 0.6);
@@ -639,8 +639,8 @@ footer img {
   }
   #quote-carousel {
     margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .item .sign a {
     font-size: 16px;
@@ -658,8 +658,7 @@ footer img {
     margin: 0 -50%;
   }
   #quote-carousel .carousel-indicators {
-    top: 0;
-    bottom: 5%; 
+    top: 100; 
   }
 
   #quote-carousel .carousel-indicators .active {

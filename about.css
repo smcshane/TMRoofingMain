@@ -163,14 +163,13 @@
         margin-bottom: 0;
     }    
     .jumbotron h1 {
-        font-size: 37px;
+        font-size: 40px;
     }
     #filter {
         display: none;
     }
     #banner1 {
-        padding: 50px;
-        margin-top: -40px;
+        padding: 50px 20px 50px 50px;
     }
     .images-left, .images-right {
         display: block;

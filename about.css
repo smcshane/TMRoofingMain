@@ -151,10 +151,9 @@
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
-    
     .jumbotron {
-        height: 375px;
-      }
+        height: 300px;
+    }
     .jumbotron .about-header {
         float: none;
         text-align: center;
@@ -166,14 +165,10 @@
     #filter {
         display: none;
     }
-    /*
-    .jumbotron .btn-tertiary {
-        font-size: 32px;
-        padding: 12px;
+    #banner1 {
+        padding: 0;
+        margin-top: 0;
     }
-    #banner1, #banner2 {
-        height: 270px;
-    } */
     .images-left, .images-right {
         display: block;
         margin: auto;

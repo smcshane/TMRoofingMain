@@ -125,12 +125,16 @@ label {
         height: auto;
         display: block;
     }
+    .btn-send {
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
     .container iframe {
-        margin-top: 2%;
+        margin: 10% 0 0 0;
         max-width: 100%;
     }
     #business-info {
-        margin: 8% 0 -5% 2%;
+        margin: 8% 0 -15% 3%;
         color: #000;
     }
 }

@@ -635,19 +635,19 @@ footer img {
     text-align: center;
   }
   .cards h4 {
-    font-size: 30px;
+    font-size: 26px;
   }
   .cards .overlay-text {
     font-size: 22px;
   }
   .overlay-text p {
     font-size: 22px;
-  }/*
+  }
   #quote-carousel {
     margin-top: 15%;
     margin-left: -5%;
     margin-right: -5%;
-  }
+  }/*
   .item .content {
     line-height: 36px;
     font-size: 33px;
@@ -661,7 +661,7 @@ footer img {
     font-weight: 450;  
     line-height:15px;
     margin-top: 6px;
-  }
+  }*/
   #quote-carousel .carousel-indicators {
     top: 85%;
     left: 35%;
@@ -689,4 +689,4 @@ footer img {
     width: 120px;
     height: 120px;
   }
-}*/
+}

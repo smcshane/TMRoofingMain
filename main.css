@@ -647,19 +647,13 @@ footer img {
     margin-top: 15%;
     margin-left: -5%;
     margin-right: -5%;
-  }/*
-  .item .content {
-    line-height: 36px;
-    font-size: 33px;
-    font-weight: 250;
-  }*/
+  }
   .item .sign a {
-    font-size: 20px;
+    font-size: 16px;
   }
   .item .sign p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 450;  
-    line-height:15px;
     margin-top: 6px;
   }
   #quote-carousel .carousel-control {
@@ -667,22 +661,30 @@ footer img {
   }
   .item blockquote {
     border-left: none;
-    margin: 0 -10%;
+    margin: 0 -50%;
   }
+
+  #quote-carousel .carousel-indicators {
+    top: 5%;
+    bottom: 0; 
+  }
+
   #rated-icon {
-    margin-top: 18%;
+    width: 100px;
   }
   #checkatrade {
     float: left;
+    width: 100px;
   }
   #ratedpeople {
     float: right;
+    width: 100px;
   }
   header, footer {
     font-weight: 500px;
   }
   footer img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 }

@@ -163,19 +163,14 @@
     #filter {
         display: none;
     }
-    .jumbotron .about-header h1 {
-        font-size: 100px;
-    }
-    .jumbotron .about-header h3 {
-        font-size: 40px;    
-    }
+    /*
     .jumbotron .btn-tertiary {
         font-size: 32px;
         padding: 12px;
     }
     #banner1, #banner2 {
         height: 270px;
-    }
+    } */
     .images-left, .images-right {
         display: block;
         margin: auto;
@@ -185,7 +180,7 @@
         margin-top: 10%;
     }
     .first-section h3 {
-        font-size: 45px;
+        font-size: 28px;
     }
     .info-left, .info-right1 {
         display: none;
@@ -194,7 +189,7 @@
         margin-bottom: 10%;
         text-align: center;
         width: 80%;
-        font-size: 40px;
+        font-size: 24px;
         line-height: normal;
         font-weight: 700px;
     }
@@ -204,7 +199,7 @@
         margin-bottom: 10%;
         text-align: center;
         width: 80%;
-        font-size: 40px;
+        font-size: 24px;
         line-height: normal;
         font-weight: 700px;
     }

@@ -645,8 +645,8 @@ footer img {
   }
   #quote-carousel {
     margin-top: 15%;
-    margin-left: -5%;
-    margin-right: -5%;
+    margin-left: -12%;
+    margin-right: -12%;
   }
   .item .sign a {
     font-size: 16px;
@@ -665,20 +665,20 @@ footer img {
   }
 
   #quote-carousel .carousel-indicators {
-    top: 5%;
+    top: 50%;
     bottom: 0; 
   }
 
   #rated-icon {
-    width: 100px;
+    width: auto;
   }
   #checkatrade {
     float: left;
-    width: 100px;
+    height: 100px;
   }
   #ratedpeople {
     float: right;
-    width: 100px;
+    height: 100px;
   }
   header, footer {
     font-weight: 500px;

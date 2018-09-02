@@ -654,40 +654,35 @@ footer img {
     font-weight: 250;
   }*/
   .item .sign a {
-    font-size: 30px;
+    font-size: 20px;
   }
   .item .sign p {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 450;  
     line-height:15px;
     margin-top: 6px;
   }
-  /*#quote-carousel .carousel-indicators {
-    top: 85%;
-    left: 35%;
+  #quote-carousel .carousel-control {
     display: none;
   }
   .item blockquote {
     border-left: none;
     margin: 0 -10%;
-  }*/
+  }
   #rated-icon {
     margin-top: 18%;
   }
   #checkatrade {
-    margin: -11% 0 0 7%;
     float: left;
   }
   #ratedpeople {
     float: right;
-    margin: -12% 3% 0 0;
   }
   header, footer {
-    font-size: 35px;
     font-weight: 500px;
   }
   footer img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
 }
